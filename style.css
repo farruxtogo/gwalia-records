@@ -1,0 +1,475 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+.yordam1{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.bolim{
+    text-transform: uppercase;
+}
+
+.f-w-500{
+    font-weight: 500;
+}
+
+.f-w-600{
+    font-weight: 600;
+}
+
+.f-w-700{
+    font-weight: 700;
+}
+
+.letter-spacing2{
+    letter-spacing: 2px;
+}
+
+
+
+.flex2{
+    flex: 2;
+    justify-content: center;
+}
+
+.flex3{
+    flex: 3;
+}
+
+.my-t-10{
+    margin-top: 10px;
+}
+
+.my-t-20{
+    margin-top: 20px;
+}
+
+.pd-t-30{
+    padding-top: 30px;
+}
+
+.w55{
+    width: 55%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.pd-30{
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header section  */
+
+header{
+    background: url("img/wallpaperflare.com_wallpaper.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+}
+
+.container {
+    padding: 30px 0;
+}
+.logo{font-size:30px;
+font-weight: 700;
+color: #c71010;
+font-family: 'Playfair Display', serif;
+}
+
+ul li a{
+    margin: 0 10px;
+    padding: 0 5px;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li a::before{
+    content: '';
+    width: 0;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+    background-color:#ffee63;
+    transition: 0.6s ease;
+}
+ul li a.active{
+    color: #f2d469;
+}
+ul li a:hover::before{
+    width: 100%;
+}
+
+/* button  */
+
+.button{
+   
+    height: 40px;
+    border-radius: 12px;
+    background-color:#ffee63;
+    color: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0 5px;
+    font-weight: 500;
+}
+.button1{
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    background-color:#ffee63;
+    color: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0 5px;
+    font-weight: 500;
+}
+
+.button:hover{
+    background-color: #ffee63;
+    color:rgb(128, 127, 127) ;
+    border: 0px solid #ffee63;
+}
+.button1:hover{
+    background-color: #ffee63;
+    color:rgb(128, 127, 127) ;
+    border: 0px solid #ffee63;
+}
+
+/* header content  */
+
+.content{
+    height: 90vh;
+    position: relative;
+    
+}
+
+.chap{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 300%;
+}
+h3{
+color: #ffffff;
+
+}
+h2{
+color: #c71010;
+}
+h4> p{
+    font-family: 'Poppins', sans-serif;
+    color:#c71010 ;
+}
+.gap1{
+    color: #ffffff;
+}
+.gap2{
+    color: #4b4a4a;
+    font-size: 35px;
+}
+.gap2:after{
+    content: "";
+    display: block;
+    width:60px ;
+    height: 3px;
+    margin: 30px auto ;
+
+    background-color:#c71010;
+}
+.color-box{
+    width: 560px;
+    height: 500px;
+    border: 5px solid red;
+    transform: rotate(48deg);
+    position: absolute;
+    top: 120px;
+    right: 30px;
+}
+.section__text{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #757474;
+   
+    text-align: center;
+}
+
+/* about sec  */
+
+.about-me-sec{
+    min-height: 100vh;
+    
+   
+}
+
+.about-me-sec hr{
+    border: 2px solid red;
+    margin-bottom: 2rem;
+}
+
+.about-content img{
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.about-content ul{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.about-content span{
+    color: #C6DCE4;
+}
+
+.dot{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.dot-w{
+    background-color: var(--primary-color);
+}
+
+.dot-b{
+    background-color: var(--seconday-color);
+}
+
+.dot-ws{
+    background-color: var(--primary-shade);
+}
+
+.dot-bs{
+    background-color: #C6DCE4;
+}
+
+.dot-a{
+    background-color: var(--accent-color);
+}
+
+/* portfolio sec  */
+
+
+
+.albom > h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #4b4a4a;
+}
+
+.first img{
+    width: 100%;
+}
+
+.bosh_albom{
+    gap: 30px;
+}
+
+.first{
+  
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.first:hover{
+    transform: scale(1.1);
+    background-color: lavender;
+}
+
+.first h3{
+    margin-top: 10px;
+}
+
+.first p{
+    margin-top: 5px;
+    line-height: 1.4;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.first button{
+    margin: 15px;
+}
+
+/* experience sec  */
+
+.section__items{
+    height: 35vh;
+    background-color: rgb(49, 49, 49);
+    color: var(--primary-color);
+    
+}
+
+.section__in{
+    padding: 0 30px 0 30px;
+}
+
+.section__blok{
+    border-bottom: 2px solid  white;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+.ola{
+    color: #c71010;
+    font-size: 25px;
+}
+.kolvo p{
+    padding-top: 14px;
+    text-transform: uppercase;
+}
+
+/* testimonial section  */
+
+.hodimlar{
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+}
+.pratatip{
+    color:#c71010 ;
+    
+}
+.hodim{
+    min-height: 75vh;
+}
+
+.rasm{
+    width: 370px;
+    height: 280px;
+    padding: 0 30px;
+    box-shadow: 1px 2px 10px 5px rgb(49, 49, 49);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+
+.rasm:hover{
+    margin-top: 65px;
+    box-shadow: 5px 5px 20px 5px #cf2626;
+}
+
+.rasm img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    left: 35%;
+}
+.bolim{
+    font-size: 40px;
+    font-family: 'Kaushan Script', linear;
+    color: #ffffff;
+}
+.review-sec{
+    margin-top: 40px;
+}
+
+.review-sec .icon-sec i{
+    color: #d40700;
+}
+
+.designation{
+    color: #b20600;
+    margin-top: 3px;
+}
+
+/* contact us  */
+
+.section__inner{
+    background-color: rgb(49, 49, 49);
+    height: 50vh;
+    padding: 0;
+}
+
+.section__on h3{
+    color:#b20600;
+}
+
+
+
+.section__detales h5{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.down__case{
+    font-size: 25px;
+    color: white;
+}
+.down__case1{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+  
+}
+
+#email-id{
+    width: 226px;
+    height: 28px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 2px 12px;
+    background-color: #4b4c4c;
+    color: #fff;;
+}
+
+.on__tomon input{
+    margin-left: 10px;
+}
+
+.on__tomon button{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+
+#click, .menu-btn i{
+    display: none;
+}
+
+footer{
+    background-color:white;
+    padding: 10px 0;
+    color: rgb(79, 79, 79);
+}
